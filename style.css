@@ -1,0 +1,29 @@
+* {
+    background-color: darkgreen;
+}
+
+.hero {
+    display: grid;
+    top: 50%;
+    max-width: 300px;
+    font-family: sans-serif;
+    border-radius: 5px;
+    background-color: rgba(245, 245, 245, 0.478);
+    padding: 25px;
+    color: whitesmoke;
+}
+
+.hero div {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.hero div #date {
+    max-width: 50px;
+    color: white;
+}
+
+.hero div #cvc {
+    max-width: 60px;
+}

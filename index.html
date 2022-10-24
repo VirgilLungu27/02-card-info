@@ -5,20 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <label for="card">Credit Card Number</label>
-        <input id="card" type="password" maxlength="16" required>
+    <div class="hero">
+        <div>
+            <label for="card">Credit Card Number</label>
+            <input id="card" type="password" maxlength="16" required>
+        </div> 
         <br>
-        <input type="name" maxlength="40" required placeholder="Full name">
+        <div>
+            <input type="name" maxlength="40" required placeholder="Full name">
+            <br>
+        </div>
+        <div>
+            <label for="date">Expiration Date</label>
+            <input id="date" type="text" maxlength="2" required placeholder="MM">
+            <input id="date" type="text" maxlength="2" required placeholder="YY">
+        </div>
         <br>
-        <label for="date">Expiration Date</label>
-        <input id="date" type="number" maxlength="2" required placeholder="MM">
-        <input id="date" type="number" maxlength="2" required placeholder="YY">
-        <br>
-        <label for="cvc">Security CVC</label>
-        <input id="cvc" type="password" maxlength="4" required>
+        <div>
+            <label for="cvc">Security CVC</label>
+            <input id="cvc" type="password" maxlength="3" required>
+        </div>
     </div>
 </body>
 </html>
