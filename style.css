@@ -1,10 +1,16 @@
 * {
     background-color: darkgreen;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .hero {
     display: grid;
-    top: 50%;
+    width: 50%;
+    top: 30%;
+    left: 42%;
+    position: absolute;
+    margin: auto;
     max-width: 300px;
     font-family: sans-serif;
     border-radius: 5px;
@@ -14,16 +20,57 @@
 }
 
 .hero div {
-    padding: 5px;
+    padding: 7px;
     margin: 5px;
     border-radius: 5px;
 }
 
+.hero label {
+    padding: 3px;
+}
+
+.hero input {
+    background-color: rgb(0, 54, 0);
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+.hero input:hover {
+    cursor: pointer;
+}
+
+.hero div #card, .hero div #name, .hero div #date, .hero div #cvc {
+    color: white;
+    border-radius: 2px;
+    padding-bottom: 4px;
+    margin-bottom: 2px;
+}
+
 .hero div #date {
     max-width: 50px;
-    color: white;
 }
 
 .hero div #cvc {
     max-width: 60px;
+}
+
+.hero .submit {
+    background-color: rgb(29, 155, 71);
+}
+
+.hero div button {
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: greenyellow;
+    border-radius: 12px;
+    left: 28%;
+    position: relative;
+}
+
+.hero div button:hover {
+    cursor: pointer;
+    background-color: rgba(172, 255, 47, 0.712);
 }
